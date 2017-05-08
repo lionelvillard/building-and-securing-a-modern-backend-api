@@ -2,16 +2,17 @@
   "name": "movieanalyst",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "action.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node bin/www"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "auth0-api-jwt-rsa-validation": "0.0.1",
     "express": "^4.14.0",
-    "express-jwt": "^3.4.0"
+    "express-jwt": "^3.4.0",
+    "openwhisk-expressjs": "^0.2.0"
   }
 }

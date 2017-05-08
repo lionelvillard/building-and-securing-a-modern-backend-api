@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const app = require('../server')({
+  client_id: '',
+  client_secret: '',
+  admin_host: '',
+  auth0_domain: '',
+  auth0_audience: ''
+});
+
+app.listen(3000)
