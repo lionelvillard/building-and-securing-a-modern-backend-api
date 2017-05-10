@@ -17,9 +17,9 @@ PACKAGE=${2-movieanalyst}
 wsk package update $PACKAGE
 
 # install action and configuration file
-cp -f $1 movieanalyst-website/config.json
-cp -f $1 movieanalyst-api/config.json
-cp -f $1 movieanalyst-admin/config.json
+cp -f $CONFIG movieanalyst-website/config.json
+cp -f $CONFIG movieanalyst-api/config.json
+cp -f $CONFIG movieanalyst-admin/config.json
 cp -f action.js movieanalyst-website/action.js
 cp -f action.js movieanalyst-api/action.js
 cp -f action.js movieanalyst-admin/action.js
