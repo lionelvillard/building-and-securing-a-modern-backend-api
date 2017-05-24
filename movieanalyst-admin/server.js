@@ -1,6 +1,6 @@
 var express = require('express');
 var request = require('superagent');
-var config = require('./config').module;
+var config = require('./config');
 
 var app = express();
 
