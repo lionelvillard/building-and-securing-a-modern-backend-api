@@ -1,7 +1,7 @@
 var express = require('express');
 var jwt = require('express-jwt');
 var rsaValidation = require('auth0-api-jwt-rsa-validation');
-var config = require('./config').module;
+var config = require('./config');
 
 var app = express();
 

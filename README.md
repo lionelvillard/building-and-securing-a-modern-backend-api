@@ -1,8 +1,5 @@
-# Building and Securing a Modern Backend API
+# Deploying Node Express Apps to OpenWhisk
 
-This repo contains the completed demo code for the article that describes how to build and secure a modern backend API on scotch.io.
+See my [blog](http://heidloff.net/article/deploying-node-express-openwhisk) for details.
 
-Read the post to follow along here.
-
-To get the app up and running you will need to have an Auth0 account. You can sign up for one [here](https://auth0.com/signup?utm_source=scotch.io&utm_medium=sp&utm_campaign=api_authorization).
-
+This sample is based on the work from [Lionel Villard](https://medium.com/openwhisk/deploying-express-js-apps-to-openwhisk-part-2-dd8fc51e8944) and [Ado Kukik](https://scotch.io/tutorials/building-and-securing-a-modern-backend-api).
